@@ -16,6 +16,8 @@
 
 import pkg from '@anticrm/dev-server'
 
-pkg.start(3333)
+const PORT = process.env.PORT || 3333
+
+pkg.start(PORT)
 
 
