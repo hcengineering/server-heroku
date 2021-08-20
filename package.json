@@ -7,6 +7,6 @@
     "start": "node ./index.mjs"
   },
   "dependencies": {
-    "@anticrm/server": "^0.6.2"
+    "@anticrm/server": "^0.6.3"
   }
 }
