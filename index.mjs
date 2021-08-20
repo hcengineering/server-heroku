@@ -14,10 +14,11 @@
 // limitations under the License.
 //
 
-import pkg from '@anticrm/dev-server'
+import pkg from '@anticrm/server'
 
 const PORT = process.env.PORT || 3333
+const MONGO_URL = process.env.MONGO_URL
 
-pkg.start(PORT)
+pkg.start(MONGO_URL, PORT)
 
 
